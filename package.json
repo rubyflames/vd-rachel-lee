@@ -4,7 +4,8 @@
   "description": "HTTP API\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\"\u001b[3~\u001b[3~\u001b[3~HTTP API\"",
   "main": "\u001b[D\u001b[D\u001b[Dindex\u001b[3~\u001b[3~\u001bx\u001b[C index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "homepage": "https://github.com/rubyflames/vd-rachel-lee#readme",
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7"
   }
 }
